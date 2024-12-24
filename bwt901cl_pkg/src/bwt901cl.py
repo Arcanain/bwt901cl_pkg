@@ -145,7 +145,7 @@ class BWT901CL(Serial):
 
 if __name__ == "__main__":
 
-    jy_sensor =  BWT901CL("/dev/ttyUSB0")
+    jy_sensor =  BWT901CL("/dev/ttyUSB1")
     #sleep(1)
     #jy_sensor.wake_up()
     while True:
